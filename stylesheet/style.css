@@ -135,9 +135,9 @@ min-height: 400px;
     color: rgb(255, 72, 72);
 }
 
-/* .productos{
+.productos{
     display: flex;
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     flex-wrap: wrap;
-} */
+}
