@@ -1,0 +1,42 @@
+/* Estilos Contacto */
+
+.cuentaContainer {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: $colormain;
+}
+.cuentaContainer form {
+    background-color: $colora;
+    padding: 20px 50px;
+    .nombre:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    } 
+    .apellido:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    .email:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    } 
+    .password:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    } 
+    .cuentaRegistrarse {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cuentaButton:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    } 
+}
+.cuentaButton {
+    display: flex;
+    justify-content: center;
+} 
