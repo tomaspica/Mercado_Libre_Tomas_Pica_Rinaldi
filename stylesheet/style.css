@@ -1,0 +1,137 @@
+ .card:hover {
+    transform: scale(1.1);
+    border: 1px solid white ;
+    box-shadow: 0px 0px 50px black;
+    cursor: pointer;
+} 
+
+main{
+    background-color: rgb(255, 255, 155);
+}
+header {
+    background-image: linear-gradient( to right ,yellow , rgb(255, 255, 132));
+}
+footer {
+    background-image: linear-gradient( to right ,yellow , rgb(255, 255, 132));
+}
+.nombre:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.apellido:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.password:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.email:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.cuentaButton:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+} 
+.login {
+    background-color: yellow;
+}
+
+
+.cuentaContainer {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.cuentaContainer form {
+    background-color: yellow;
+    padding: 20px 50px;
+}
+
+.cuentaButton {
+    display: flex;
+    justify-content: center;
+}
+
+.cuentaRegistrarse {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cuentaRegistrarse h4 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.cuentaContainer form a {
+    color: white
+}
+
+.list-group-item {
+    margin: 3px;
+}
+
+.leyenda {
+    display: flex;
+    margin: 30px 600px;
+}
+
+.ayudah6 {
+    display: flex;
+    margin: 30px 600px;
+    align-content: center;
+}
+
+.buscador {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+} 
+
+.mapa {
+    display: flex;
+   justify-content: left;
+    margin: 50px;
+} 
+ span{
+    margin: 20px;
+}
+h4{
+    margin: 10px;
+}
+
+.carrito{
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+min-height: 400px;
+}
+.carrito .carritoTotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(rgb(255, 255, 114), white, rgb(255, 255, 114));
+    margin: 25px;
+}
+.carrito h4 {
+    display: flex;
+    font-size: 23px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    justify-content: center;
+}
+.carrito h2 {
+    font-size: 30px;
+    margin: 30px;
+}
+
+.ofertas{
+    font-size: 13px;
+    color: rgb(255, 72, 72);
+}
+
+
