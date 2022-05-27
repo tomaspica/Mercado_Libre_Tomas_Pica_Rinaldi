@@ -9,10 +9,22 @@ header {
   box-shadow: 0px 0px 50px black;
   cursor: pointer; }
 
+.productos {
+  display: flex;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  flex-wrap: wrap; }
+
 /*Estilos Ofertas*/
 .ofertas {
   font-size: 13px;
   color: #ff4848; }
+
+.productos {
+  display: flex;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  flex-wrap: wrap; }
 
 /* Estilos Login */
 .cuentaContainer {

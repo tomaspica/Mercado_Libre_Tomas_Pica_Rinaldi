@@ -3,3 +3,9 @@
 .card:hover {
     @include card (scale(1.1),  1px solid white, 0px 0px 50px black, pointer)
 } 
+.productos{
+    display: flex;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    flex-wrap: wrap;
+}
